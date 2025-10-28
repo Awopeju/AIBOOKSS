@@ -1,0 +1,73 @@
+.why-section{
+  padding: 20px;
+  background:radial-gradient(farthest-corner,rgb(255, 255, 255)10%,rgb(165, 165, 165));
+
+}
+.why-title-div{
+  text-align: center;
+  
+}
+.why-title-div h2{
+  font-size: 3rem;
+  font-weight: 900;
+  color: black;
+}
+.why-title-div p{
+  font-weight: 500;
+ color: rgba(0, 0, 0, 0.609);
+}
+.why-items-div button{
+   padding: 8px 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+ background: repeating-linear-gradient(to  bottom left , rgb(14, 13, 13) 50%, rgba(60, 59, 59, 0.742) 50% 80%, rgb(0, 0, 0)100%);
+ color: white;
+ margin-bottom: 15px;
+ border: none;
+}
+.why-items-div p{
+  color: rgb(47, 47, 47);
+}
+.why-second-div,
+.card-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.card-body{
+  background:  linear-gradient(to right, rgb(0, 0, 0),rgb(0, 0, 0), rgb(42, 42, 43));
+}
+.why-second-div h2{
+  font-size: 2rem;
+  font-size: 900;
+  color: white;
+}
+.why-second-div p{
+  color: rgb(175, 175, 175);
+}
+.second-subdiv{
+  display: flex;
+  justify-content: space-evenly;
+ gap: 40px;
+
+}
+
+@media  (max-width:32rem){
+
+  .why-title-div h2{
+  font-size: 2.1rem;
+  font-weight: 900;
+}
+.why-title-div p{
+  font-weight: 700;
+  color: grey;
+  font-size: 0.9rem;
+}
+.why-second-div h2{
+  font-size: 1.49rem;
+  font-weight: 900;
+}
+}

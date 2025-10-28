@@ -1,0 +1,120 @@
+.dashboard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+ 
+ 
+ 
+  
+}
+.dashboard-main-div{
+
+width: 100%;
+background-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 40px;
+   box-shadow:0px 3px 6px rgba(0, 0, 0, 0.683) ;
+ 
+}
+
+.campaigne-title-div h2{
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin: 0;
+  color: white;
+}
+.campaigne-title-div p{
+ color: rgb(175, 174, 174);
+  font-size: 1rem;
+  margin:0 ;
+  padding-bottom: 10px;
+}
+.live-dashbord{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  color: rgb(0, 0, 0);
+
+  
+}
+.live-dashbord .first{
+background: repeating-linear-gradient(to right, rgba(209, 182, 182, 0.127) 90%, rgb(180, 113, 113,0.497));
+border-radius: 10px;
+color: rgb(255, 255, 255);
+padding: 10px;
+}
+.live-dashbord span {
+ font-size: 2rem;
+ font-weight: 900; 
+}
+.live-dashbord p {
+font-size: 1.3rem;
+font-weight: 500;
+}
+.live-dashbord .second{
+  background: repeating-linear-gradient(to right, rgba(173, 204, 160, 0.127) 90%, rgb(40, 150, 12, 0.497) );
+  border-radius: 10px;
+  color: rgb(243, 243, 243);
+  padding: 10px;
+}
+.live-dashbord .third{
+  background: repeating-linear-gradient(to right, rgba(184, 160, 206, 0.127) 90%, rgb(157, 109, 162,0.497));
+  border-radius: 10px;
+  color: rgb(252, 252, 252);
+  padding: 10px;
+}
+.live-dashbord .fourth{
+ background: repeating-linear-gradient(to right, rgba(149, 153, 188, 0.127) 90%, rgba(96, 100, 170, 0.497));
+  border-radius: 10px;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+}
+.items-todo{
+  display: flex;
+  justify-content: space-between;
+  background: repeating-radial-gradient(farthest-corner at 100px, rgb(80, 89, 86) 90% , rgb(55, 123, 116, 0.497));
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 900;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+
+
+
+@media  (max-width:32rem) {
+  .dashboard{
+   margin: 10px;
+  }
+  .dashboard-main-div{
+margin: 10px;
+width: 100%;
+ 
+}
+.campaigne-title-div h2{
+  font-size: 1.2rem;
+}
+.campaigne-title-div p{
+  font-size: 0.9rem;
+}
+.live-dashbord span {
+ font-size: 1.2rem;
+ font-weight: 500; 
+}
+.live-dashbord p {
+font-size: 1rem;
+font-weight: 500;
+}
+.dashboard-ToDo-list p,
+.dashboard-ToDo-calls p{
+font-size: 1rem;
+}
+
+
+  
+}

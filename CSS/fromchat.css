@@ -1,0 +1,23 @@
+.fromchat-section{
+  margin: 40px;
+}
+.fromchat-div button{
+ padding: 8px 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+ background: repeating-linear-gradient(to  bottom left , rgb(14, 13, 13) 50%, rgba(60, 59, 59, 0.742) 50% 80%, rgb(0, 0, 0)100%);
+ color: white;
+ margin-bottom: 15px;
+ border: none;
+}
+.fromchat-div h2{
+  font-size: 2rem;
+  font-weight: 900;
+  
+  color: black;
+}
+.fromchat-div p{
+  
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.609);
+}

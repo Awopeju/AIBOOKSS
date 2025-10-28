@@ -1,0 +1,142 @@
+.hero-section{
+  background:radial-gradient(farthest-corner,rgb(255, 255, 255)10%,rgb(165, 165, 165));
+   
+
+}
+.hero-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+
+ 
+}
+.hero-details button{
+  padding: 8px 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background: repeating-linear-gradient(to  bottom left , rgb(14, 13, 13) 50%, rgba(60, 59, 59, 0.742) 50% 80%, rgb(0, 0, 0)100%);
+  color: white;
+  margin-bottom: 15px;
+  border: none;
+ 
+}
+.hero-details button:hover{
+  color: white;
+}
+
+
+.hero-details h1{
+  /* background: linear-gradient(to right, rgb(92, 19, 92), rgba(255, 166, 0, 0.763), rgb(203, 189, 146), rgb(72, 18, 111));
+  background-clip: text;
+  background-size: 200%; */
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 900;
+  animation: animate-gradient 3s linear infinite;
+}
+@keyframes animate-gradient {
+  to{
+    background-position: 100%;
+  }
+  
+}
+.hero-details p{
+  margin: 0;
+  font-size:1.3rem ;
+  text-align: center;
+  color: grey;
+  font-weight: 600;
+
+}
+
+.hero-details-two{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5px;
+ 
+
+}
+.details2-div-items{
+ padding:0 10px;
+}
+.details2-div-items p{
+  margin: 0;
+ color: grey;
+  font-weight: 900;
+  width: 200px;
+
+
+}
+.hero-sec-span{
+  font-size: 3rem;
+  
+ 
+
+}
+.hero-action-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+ 
+  
+  
+}
+.hero-button {
+ color: white;
+ background: #000;
+ padding-bottom: 10px;
+ transition: box-shadow 0.3s ease-in-out;
+ 
+
+}
+.hero-button:hover{
+  color: rgb(238, 238, 238);
+  box-shadow: 10px 0 20px rgb(255, 255, 255), -10px 0 20px rgb(255, 255, 255);
+}
+
+.hero-action-div p{
+  color: grey;
+}
+
+
+
+@media (max-width:56rem) {
+   .hero-details h1{
+    font-size: 2rem;
+   }
+   .hero-details button{
+    padding: 7px 25px;
+    font-size: 0.8rem;
+   }
+   .hero-details p{
+  font-size:1rem ;
+ 
+}
+
+.hero-sec-span{
+  font-size: 2.2rem;
+
+}
+.details2-div-items p{
+  margin: 0;
+  width:auto;
+ 
+}
+}
+@media (max-width:32rem){
+
+.hero-sec-span{
+  font-size: 1.7rem;
+
+}
+.details2-div-items p{
+
+  font-size: 0.7rem;
+
+}
+}

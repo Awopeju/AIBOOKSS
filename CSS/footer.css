@@ -1,0 +1,32 @@
+.footer-section{
+   background:  linear-gradient(to right, rgba(72, 72, 73, 0.438), rgba(64, 5, 112, 0.475)); 
+}
+.footer-item-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 30px;
+}
+.footer-item-div h2{
+  color: white;
+  font-size: 30px;
+  padding:20px 0;
+}
+.footer-item-div p{
+  padding: 0 10px;
+}
+.footer-item-div button{
+  margin-bottom: 20px;
+  padding:12px 20px;
+}
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+

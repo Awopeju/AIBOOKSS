@@ -1,0 +1,97 @@
+.supercharge-section{
+
+background:radial-gradient(farthest-corner,rgb(255, 255, 255)10%,rgb(165, 165, 165));
+}
+
+
+.supercharge-title-div{
+  text-align: center;
+  padding: 20px;
+
+  
+}
+.supercharge-title-div h2{
+  font-size: 3rem;
+  font-weight: 900;
+  
+
+}
+.supercharge-title-div p{
+  font-weight: 700;
+color: grey;
+}
+.supercharge-main-div{
+  margin: 20px;
+}
+.supercharge-subdiv{
+  margin:150px ;
+  
+
+}
+.items{
+  background:  linear-gradient(to right, rgba(255, 255, 255, 0.268),rgba(233, 233, 233, 0.167), rgba(0, 0, 0, 0.148));
+      transition: box-shadow 0.3s ease-in-out;
+ 
+}
+.items:hover{
+box-shadow: 10px 0 20px rgba(0, 0, 0, 0.221), -10px 0 20px rgba(0, 0, 0,  0.366);
+}
+
+.items p{
+ color: grey;
+}
+.supercharge-subitems{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.supercharge-subitems span:nth-child(1){
+  background:  linear-gradient(to right, rgb(69, 69, 72), rgb(0, 0, 0));
+  background-clip: text;
+  color: transparent;
+  font-size: 2.5rem;
+
+}
+.supercharge-subitems span:last-child{
+  font-size: 0.9rem;
+  color: grey;
+  margin-top:-20px;
+}
+.items .supercharge-header{
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: black;
+
+}
+
+
+
+@media  (max-width:64rem){
+.supercharge-subdiv{
+  padding: 10px;
+  margin: 0;
+}
+}
+
+
+@media  (max-width:32rem){
+
+  .supercharge-title-div h2{
+  font-size: 2.1rem;
+  font-weight: 900;
+}
+.supercharge-title-div p{
+  font-weight: 700;
+  color: grey;
+  font-size: 0.9rem;
+}
+.supercharge-subdiv{
+  padding: 10px;
+}
+.supercharge-subitems span:nth-child(1){
+  font-size: 2rem;
+
+}
+
+}

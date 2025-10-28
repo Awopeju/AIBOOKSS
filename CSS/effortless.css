@@ -1,0 +1,87 @@
+.setup-section{
+
+}
+.setup-main-div{
+background-color: black;
+border-radius: 10px;
+margin: 10px;
+padding: 20px;
+}
+.setup-title-div{
+   text-align: center;
+   margin: 70px 0;
+  
+  
+}
+.setup-title-div h2{
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  
+
+}
+.setup-title-div p{
+  font-weight: 700;
+ color: grey;
+}
+
+.setup-items{
+  margin: 20px;
+
+}
+.effortless{
+
+  text-align: center;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.effortless:hover{
+  box-shadow: 10px 0 20px rgba(255, 255, 255, 0.088), -10px 0 20px rgba(252, 252, 252, 0.072);
+}
+
+.effortless .effortless-subdiv-title {
+  font-size: 1.5rem;
+color: white;
+  text-align: center;
+  font-weight: 500;
+  animation: animate-gradient 6s linear infinite;
+}
+@keyframes animate-gradient {
+  to{
+    background-position: 100%;
+  }
+  
+}
+.effortless p:last-child{
+   color: grey;
+  font-weight: 400;
+
+}
+
+@media (max-width:32rem) {
+.setup-title-div{
+   padding: 0 20px;
+}
+
+
+.setup-title-div h2{
+  font-size: 2rem;
+  font-weight: 900;
+
+}
+.bestuse-title-div p{
+  font-size: 0.9rem;
+  color: grey;
+  padding: 20px;
+}
+.setup-items{
+  margin: 20px;
+
+}
+.effortless{
+ 
+  border-radius: 30%;
+  text-align: center;
+
+  
+}
+}
