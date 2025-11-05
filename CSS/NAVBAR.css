@@ -49,7 +49,9 @@ imagereaveal{
 }
 .autoshow{
   animation: text-appear 2s ease-in both;
-  animation-timeline: view(10% 5%);
+  
+  animation-range: entry 10% cover 60vh;
+
   
 
 }
@@ -68,7 +70,8 @@ imagereaveal{
 
 .textXslide{
   animation: text-appearrr 2s linear both;
-  animation-timeline: view(10% 5%);
+  animation-range: entry 10% cover 60vh;
+
   
  
 
@@ -87,7 +90,8 @@ imagereaveal{
 }
 .textXslidee{
   animation: text-appearrrs  2s linear both;
-  animation-timeline: view(10% 5%);
+  animation-range: entry 10% cover 60vh;
+
    
  
   
